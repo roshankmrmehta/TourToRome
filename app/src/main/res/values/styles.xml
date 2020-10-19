@@ -1,0 +1,45 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="drawerArrowStyle">@style/DrawerIcon</item>
+    </style>
+
+    <!-- Changing Default Hamburger Icon Color -->
+    <style name="DrawerIcon" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <!-- Changing Default Navigation Text Family -->
+    <style name="nav_font">
+        <item name="fontFamily">@font/balsamiq_sans_bold</item>
+    </style>
+
+    <!-- Card Title Default Style -->
+    <style name="cardTitleStyle">
+        <item name="android:textSize">@dimen/txt_24</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/balsamiq_sans_bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_margin">@dimen/dp_4</item>
+
+    </style>
+
+    <!-- Card Additional Default Style -->
+    <style name="cardInfoStyle">
+        <item name="android:textSize">@dimen/txt_18</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_marginStart">@dimen/dp_6</item>
+        <item name="android:ellipsize">end</item>
+        <item name="maxLines">1</item>
+        <item name="android:layout_marginTop">@dimen/dp_4</item>
+        <item name="fontFamily">@font/balsamiq_sans_regular</item>
+        <item name="android:drawablePadding">@dimen/dp_6</item>
+
+    </style>
+
+
+</resources>

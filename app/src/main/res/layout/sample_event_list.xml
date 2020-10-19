@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dp_6"
+    android:elevation="@dimen/dp_6"
+    app:cardBackgroundColor="@color/card_background"
+    app:cardCornerRadius="@dimen/dp_6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/event_img"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_235"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_launcher_round" />
+
+        <TextView
+            android:id="@+id/event_title"
+            style="@style/cardTitleStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tool:text="Event Title" />
+
+        <TextView
+            android:id="@+id/event_info"
+            style="@style/cardInfoStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tool:text="Additional Information" />
+
+        <TextView
+            android:id="@+id/event_time"
+            style="@style/cardInfoStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_baseline_access_time_24"
+            tool:text="Best visit : Oct to Nov" />
+
+        <TextView
+            android:id="@+id/event_location"
+            style="@style/cardInfoStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_baseline_location_on_24"
+            tool:text="Location " />
+
+        <TextView
+            android:id="@+id/event_webLink"
+            style="@style/cardInfoStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:drawableStart="@drawable/website_link"
+            tool:text="website" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

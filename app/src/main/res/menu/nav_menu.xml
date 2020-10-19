@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/home"
+            />
+
+        <item
+            android:id="@+id/hotel"
+            android:icon="@drawable/ic_baseline_hotel_24"
+            android:title="@string/hotel" />
+
+        <item
+            android:id="@+id/cafe"
+            android:icon="@drawable/ic_baseline_restaurant_24"
+            android:title="@string/cafe_amp_restaurant" />
+
+        <item
+            android:id="@+id/festival"
+            android:icon="@drawable/ic_baseline_event_24"
+            android:title="@string/event_and_festivals" />
+
+    </group>
+
+</menu>
